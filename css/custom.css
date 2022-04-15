@@ -1,0 +1,47 @@
+.contact-title p{
+	background:#007ACC ;
+	color:white;
+	padding:8px 10px;
+	font-size:20px;
+	width:100%;
+	font-family:arial;
+	margin-bottom:5px !important;
+}
+.contact-input input{
+	padding:10px 5px;
+	background:#EEEEEE !important;
+	width:100%;
+	margin-bottom:10px
+
+}
+.contact-taxrarea textarea{
+	width:100%;
+	background:#EEEEEE;
+	padding:5px 5px;
+}
+.contact-button{
+	text-align: right;
+}
+.contact-button input{
+	margin-top:10px;
+	background:#007ACC !important;
+	color:white;
+}
+.contact-button input:hover{
+	background:#008080 !important;
+}
+.contact-form{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+}
+.contact-taxrarea{
+	grid-column: 1/-1;
+}
+.contact-button{
+	grid-column: 1/-1;
+}
+.pro-detail-title{
+	padding-top: 10px;
+	margin-bottom: 10px !important;
+}
